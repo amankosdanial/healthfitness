@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - Health & Fitness Tracker</title>
+    <!-- Linking main stylesheet and Bootstrap for layout and styling -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Makes footer stick to the bottom and body stretch full height */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigational bar -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Health & Fitness</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Navigation links -->
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="profile.html">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main profile content -->
+    <div class="container mt-4 content">
+        <h2>User Profile</h2>
+        <div class="card p-4">
+            <div class="row">
+                <!-- Profile picture -->
+                <div class="col-md-3">
+                    <img src="Images/noimage.webp" loading="lazy" alt="Profile Picture" class="img-thumbnail"
+                        style="max-width: 100%;" id="profileImage">
+                </div>
+                <!-- Profile information fields -->
+                <div class="col-md-9">
+                    <!-- User name -->
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control" id="nameInput" value="John Doe" disabled>
+                    </div>
+                    <!-- User age -->
+                    <div class="mb-3">
+                        <label class="form-label">Age</label>
+                        <input type="number" class="form-control" id="ageInput" value="28" disabled>
+                    </div>
+                    <!-- User email -->
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" id="emailInput" value="john.doe@example.com" disabled>
+                    </div>
+
+                    <!-- Login and usage statistics -->
+                    <p>Logins: <span id="loginCount">0</span></p>
+                    <p>Website Access: <span id="usageCount">0</span> times</p>
+
+                    <!-- Edit/save profile buttons -->
+                    <button class="btn btn-secondary" id="editProfileBtn">Edit Profile</button>
+                    <button class="btn btn-primary" id="saveProfileBtn" style="display: none;">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>&copy; 2025 Health & Fitness Tracker</footer>
+
+    <!-- JavaScript files -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/dom.js"></script>
+</body>
+
+</html>

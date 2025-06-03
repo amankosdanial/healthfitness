@@ -1,0 +1,293 @@
+/* Base body styling with custom font and colors */
+body {
+  font-family: 'Lato', sans-serif;
+  /* Clean, modern font */
+  color: #333;
+  /* Dark gray text for readability */
+  background-color: #f9f9f9;
+  /* Light gray background */
+}
+
+/* Full-height layout setup */
+html,
+body {
+  height: 100%;
+  /* Full viewport height */
+  margin: 0;
+  /* Remove default margin */
+  display: flex;
+  /* Flexbox layout */
+  flex-direction: column;
+  /* Vertical stacking */
+}
+
+/* Main content area that grows to push footer down */
+main {
+  flex: 1;
+  /* Takes remaining vertical space */
+}
+
+/* Header styling with brand color */
+header {
+  background-color: #4CAF50;
+  /* Green brand color */
+  color: white;
+  /* White text for contrast */
+  padding: 20px;
+  /* Comfortable spacing */
+}
+
+/* Section styling for content containers */
+section {
+  padding: 20px;
+  /* Inner spacing */
+  margin: 20px;
+  /* Outer spacing */
+  border: 1px solid #ddd;
+  /* Subtle border */
+  border-radius: 5px;
+  /* Rounded corners */
+  background: white;
+  /* Clean white background */
+}
+
+/* Footer styling that stays at bottom */
+footer {
+  background-color: #212529;
+  /* Dark background */
+  color: #fff;
+  /* White text */
+  text-align: center;
+  /* Centered content */
+  padding: 15px 0;
+  /* Vertical padding */
+  margin-top: auto;
+  /* Pushes to bottom */
+}
+
+/* Article text styling for readability */
+article {
+  font-size: 1.1rem;
+  /* Slightly larger text */
+  line-height: 1.7;
+  /* Comfortable line spacing */
+  color: #444;
+  /* Slightly darker text */
+}
+
+/* Paragraph spacing within articles */
+article p {
+  margin-bottom: 1.2em;
+  /* Consistent vertical rhythm */
+}
+
+/* Special styling for contact page main content */
+#contact-main {
+  background-color: #f8f9fa;
+  /* Light gray background */
+  border-radius: 12px;
+  /* More pronounced rounded corners */
+  padding: 30px;
+  /* Generous padding */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+  margin-top: 40px;
+  /* Space from top */
+}
+
+/* Quick log section styling */
+#quickLog {
+  background: #f8f9fa;
+  /* Light background */
+  padding: 15px;
+  /* Inner spacing */
+  border-radius: 8px;
+  /* Rounded corners */
+  margin-top: 20px;
+  /* Space above */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+}
+
+/* Quick log heading color */
+#quickLog h3 {
+  margin-top: 0;
+  /* Remove default margin */
+  color: #2E8B57;
+  /* Darker green */
+}
+
+/* Quick log button styling */
+#quickLog button {
+  margin-top: 10px;
+  /* Space above */
+  width: 100%;
+  /* Full width */
+}
+
+/* Elegant tips container styling */
+.elegant-tips {
+  font-family: 'Lato', sans-serif;
+  /* Consistent font */
+  max-width: 600px;
+  /* Reasonable max width */
+  margin: 25px auto;
+  /* Centered with vertical space */
+  padding: 25px;
+  /* Inner spacing */
+  background: white;
+  /* Clean background */
+  border-radius: 12px;
+  /* Rounded corners */
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  /* Subtle shadow */
+}
+
+/* Tips header styling */
+.tips-header {
+  color: #2E8B57;
+  /* Dark green */
+  font-weight: 700;
+  /* Bold */
+  margin-bottom: 20px;
+  /* Space below */
+  font-size: 1.4rem;
+  /* Larger text */
+  text-align: center;
+  /* Centered */
+  letter-spacing: 0.5px;
+  /* Slight spacing */
+}
+
+/* Tips list container */
+.tips-list {
+  list-style: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margin */
+}
+
+/* Individual tip item styling */
+.tip-item {
+  padding: 12px 0;
+  /* Vertical spacing */
+  margin: 10px 0;
+  /* Space between items */
+  display: flex;
+  /* Flex layout */
+  align-items: center;
+  /* Center vertically */
+  position: relative;
+  /* For positioning bullet */
+  padding-left: 28px;
+  /* Space for bullet */
+}
+
+/* Custom bullet point styling */
+.bullet-point {
+  position: absolute;
+  /* Absolute positioning */
+  left: 0;
+  /* Align left */
+  width: 14px;
+  /* Size */
+  height: 14px;
+  /* Size */
+  background: #4CAF50;
+  /* Green color */
+  border-radius: 50%;
+  /* Circular */
+  display: inline-block;
+  /* Display property */
+}
+
+/* Tip text styling */
+.tip-text {
+  color: #444;
+  /* Dark gray */
+  font-size: 1.1rem;
+  /* Slightly larger */
+  line-height: 1.5;
+  /* Comfortable spacing */
+  margin-left: 8px;
+  /* Space from bullet */
+}
+
+/* Toggle tips button styling */
+#toggleTips {
+  display: block;
+  /* Block level */
+  background: transparent;
+  /* No background */
+  color: #2E8B57;
+  /* Green text */
+  border: 2px solid #2E8B57;
+  /* Green border */
+  border-radius: 24px;
+  /* Pill shape */
+  padding: 8px 24px;
+  /* Comfortable padding */
+  margin: 20px auto 0;
+  /* Centered with space */
+  font-weight: 600;
+  /* Semi-bold */
+  transition: all 0.3s;
+  /* Smooth transitions */
+  cursor: pointer;
+  /* Pointer cursor */
+}
+
+/* Hover state for toggle button */
+#toggleTips:hover {
+  background: #2E8B57;
+  /* Green background */
+  color: white;
+  /* White text */
+}
+
+/* Workout recommendation styling */
+.workout-recommendation {
+  font-size: 1.1rem;
+  /* Slightly larger */
+  color: #2E8B57;
+  /* Green text */
+  text-align: center;
+  /* Centered */
+  margin: 15px 0;
+  /* Vertical spacing */
+  padding: 12px;
+  /* Inner spacing */
+  background: #f0f7f1;
+  /* Light green background */
+  border-radius: 8px;
+  /* Rounded corners */
+  border-left: 4px solid #2E8B57;
+  /* Accent border */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+
+  /* Smaller header text */
+  header h1 {
+    font-size: 24px;
+  }
+
+  /* Adjusted section spacing */
+  section {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  /* Smaller tips container padding */
+  .elegant-tips {
+    padding: 20px;
+  }
+
+  /* Adjusted tip item spacing */
+  .tip-item {
+    padding: 10px 0 10px 24px;
+  }
+}

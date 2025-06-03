@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic meta tags -->
+  <meta charset="UTF-8">
+  <!-- Page title displayed in browser tab -->
+  <title>Contact</title>
+
+  <!-- External CSS files -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Bootstrap CSS framework -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigational bar with dark theme -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Health & Fitness</a>
+
+      <!-- Mobile menu toggle button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigational bar items -->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto"> <!-- ms-auto aligns items to right -->
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content area -->
+  <main id="contact-main" class="d-flex flex-column align-items-center py-4">
+    <!-- Contact form heading -->
+    <h2>Contact Us</h2>
+
+    <!-- Contact form with max-width constraint -->
+    <form class="w-100" style="max-width: 400px;">
+      <!-- Name input field -->
+      <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <!-- Email input field -->
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control">
+      </div>
+
+      <!-- Message textarea -->
+      <div class="mb-3">
+        <label class="form-label">Message</label>
+        <textarea class="form-control" rows="4"></textarea>
+      </div>
+
+      <!-- Submit button with paper plane icon -->
+      <button class="btn btn-success">
+        <i class="fas fa-paper-plane"></i> Send
+      </button>
+    </form>
+  </main>
+
+  <!-- Bootstrap JavaScript bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Footer section -->
+  <footer>&copy; 2025 Health & Fitness Tracker</footer>
+
+  <!-- JavaScript files -->
+  <script src="js/script.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/dom.js"></script>
+
+</body>
+
+</html>
