@@ -1,62 +1,62 @@
 # Health & Fitness Tracker
-**Health & Fitness Tracker** — это учебный веб-проект, направленный на развитие навыков HTML, CSS, JavaScript и взаимодействия с API. Пользователь может добавлять цели, получать случайные мотивационные цитаты и взаимодействовать с контентом через форму.
+**Health & Fitness Tracker is an educational web project designed to develop skills in HTML, CSS, JavaScript, and API integration. The application enables users to set goals, receive random motivational quotes, and interact with content through forms.
 
 ---
 
-## Основные страницы
+## Main pages
 
-| Страница       | Назначение                                      |
+| Page           | Purpose                                         |
 |----------------|-------------------------------------------------|
-| `index.html`   | Главная. Приветствие и вводная информация       |
-| `about.html`   | Информация о целях проекта                      |
-| `contact.html` | Форма обратной связи                            |
-| `profile.html` | Профиль пользователя                            |
-| `blog.html`    | Добавление целей, мотивационные цитаты          |
+| `index.html`   | Homepage. Welcome and introduction              |
+| `about.html`   | Project goals information                       |
+| `contact.html` | Feedback form                                   |
+| `profile.html` | User profile                                    |
+| `blog.html`    | Goal tracking, motivational quotes              |
 
 ---
 
-## ✅ Соответствие критериям проекта
+## ✅ Project Compliance Criteria
 
 ### 1. User Interface & Design
-- Используются **Bootstrap** и адаптивные классы
-- Современный дизайн, логичная навигация
+- Uses Bootstrap with responsive classes
+- Modern design with intuitive navigation
+
 
 ### 2. Responsiveness & Cross-Browser Compatibility
-- Поддерживается Bootstrap 5 — адаптация под мобильные устройства
-- Проверено в современных браузерах (Chrome, Firefox, Edge)
+- Modern design with intuitive navigation
+- Tested in modern browsers (Chrome, Firefox, Edge)
 
 ### 3. JavaScript Interactivity
-- Присутствует интерактивность:
-  - Добавление целей и сохранение в LocalStorage
-  - Генерация случайных цитат
-  - Звуковая обратная связь
-  - Используется `addEventListener`, `fetch`, `localStorage`
+- Interactive features include:
+  - Goal creation with LocalStorage persistence
+  - Random quote generation
+  - Audio feedback
+  - Implementation of `addEventListener`, `fetch`, `localStorage`
 
 ### 4. API Integration
-- Реализована интеграция с локальным массивом цитат
-- Данные отображаются в DOM
-- Присутствует обработка событий (click, mouseenter, mouseleave, mouseover / mouseout, submit, DOMContentLoaded)  
+- Integrated with local quotes dataset
+- Data dynamically rendered in DOM
+- Comprehensive event handling (click, mouseenter, mouseleave, mouseover/mouseout, submit, DOMContentLoaded)
 
 ### 5. Forms and Validation
-- Присутствуют формы с `required`
-- Отображается подтверждение при добавлении цели
-- Форма ввода цели включает базовую HTML-валидацию с обязательным заполнением, обеспечивая корректность пользовательского ввода. При необходимости функциональность легко расширяется с помощью дополнительных атрибутов (pattern, title, min/max).
+- Forms include `required` field validation
+- Visual confirmation for goal submissions
+- Goal input form features basic HTML validation with mandatory fields. Extendable with additional attributes (pattern, title, min/max)
 
 ### 6. Code Optimization and Performance
-- Код структурирован и читаем.
-- Реализована отложенная загрузка изображений (loading="lazy") для повышения производительности.
-- Используются современные форматы изображений (.webp, .svg) для оптимизации загрузки.
-- Применены семантические HTML5-теги, что улучшает доступность и структуру разметки.
-- Верстка отрефакторена и соответствует современным стандартам
+- Well-structured and readable code.
+- Lazy-loaded images (loading="lazy")
+- Modern image formats (.webp, .svg)
+- Semantic HTML5 tags for accessibility.
+- Refactored layout meeting modern standards
 
 ### 7. Deployment and Accessibility
-- Размещен на GitHub Pages
-- Имеет `README.md`
+- Hosted on GitHub Pages
+- Includes comprehensive `README.md`
 
 ---
 
-## Используемые технологии
-
+## Used Technologies
 - HTML5, CSS3, Bootstrap 5
 - JavaScript (Vanilla JS)
 - LocalStorage
@@ -65,15 +65,14 @@
 
 ---
 
-## Как запустить проект
-
-1. Скачай или распакуй `.zip`-архив
-2. Открой `index.html` в браузере
-3. Готово!
+## How to run the project
+1. Download or extract the `.zip` archive
+2. Open `index.html` in your browser
+3. Ready to use!
 
 ---
 
-## Авторы
-  
-Разработан студентами 1 курса образовательной программы Big Data Analysis: Saparbaev Sanzhar, Amankos Danial в рамках курса по WEB Technologies 1 (Front End) 
-2025 © Health & Fitness Tracker
+## Authors
+- Developed by 1st-year Big Data Analysis students: Saparbaev Sanzhar, Amankos Danial
+WEB Technologies 1 (Front End) course project 
+- 2025 © Health & Fitness Tracker
