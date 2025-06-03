@@ -66,9 +66,16 @@
 ---
 
 ## How to run the project
+- Option 1: Local Setup
 1. Download or extract the `.zip` archive
 2. Open `index.html` in your browser
 3. Ready to use!
+   
+- Option 2: Live Website
+Simply visit our hosted version at:
+➡️ https://amankosdanial.github.io/healthfitness/
+
+No installation needed - runs directly in your browser!
 
 ---
 
