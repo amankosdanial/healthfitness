@@ -40,21 +40,7 @@ if (randomHealthScore > 7) {
     console.log("Let's work on improving your health score!");
 }
 
-const randomWorkout = Math.floor(Math.random() * 5) + 1;
-document.addEventListener('DOMContentLoaded', function () {
-    const isHomePage = window.location.pathname.endsWith("index.html") ||
-        window.location.pathname.endsWith("/");
 
-    if (isHomePage) {
-        const randomWorkout = Math.floor(Math.random() * 5) + 1;
-        const workoutElement = document.createElement('p');
-        workoutElement.textContent = `Today's recommended workout: #${randomWorkout}`;
-        workoutElement.style.fontWeight = 'bold';
-        workoutElement.style.marginTop = '10px';
-        workoutElement.className = 'workout-recommendation';
-        document.querySelector('section').appendChild(workoutElement);
-    }
-});
 
 const fitnessTips = [
     "Stay hydrated during workouts",
